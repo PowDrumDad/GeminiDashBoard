@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Personal Dashboard",
+  "description": "A personal dashboard application to visually organize your day, manage tasks, plan meals, and get AI-powered suggestions. It's inspired by Google Keep and Calendar to create a dynamic and centralized view of your life.",
+  "requestFramePermissions": []
+}
