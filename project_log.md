@@ -92,11 +92,20 @@ This document tracks the development progress of the Gemini Personal Dashboard a
 - **Version Control:** The entire project is under Git version control and is backed up remotely on GitHub. A `dev` branch has been created for ongoing development, protecting the `master` branch.
 - **Functionality:** The application remains fully functional, with all previous features intact.
 
-## Next Steps (Future)
+## Next Steps (Session Paused)
 
-- Implement Google OAuth 2.0 to allow the application to securely request access to the user's Google account data.
-- Replace the mock data source with live API calls to the Google Calendar and Google Keep services.
-- Continue development on the `dev` branch.
+- **Objective:** Replace mock data with live data from Google services by implementing OAuth 2.0.
+- **Google Calendar Integration:**
+    - Guide the user through creating a Google Cloud project.
+    - Enable the Google Calendar API.
+    - Create OAuth 2.0 credentials (Client ID).
+    - Implement a "Sign in with Google" flow in the application.
+    - Fetch and display real calendar data.
+- **Google Keep / Tasks API Investigation:**
+    - **Hurdle:** A public Google Keep API does not exist.
+    - **Proposed Solution:** Pivot the `TaskList` and `ShoppingList` components to use the **Google Tasks API**, which is fully supported.
+    - The user will decide on this approach upon their return.
+- **Development Workflow:** Continue all new development on the `dev` branch.
 
 
 
