@@ -1,0 +1,2 @@
+This project creates a dashboard view utilizing daily, weekly and monthly views of the Google Calendar and Good Tasks to compile and organize various ideas, lists, goals, and plans. 
+The name of this project has been renamed in the IDE to MyLife Dashboard as Gemini has not been implemented into the code. This may change over time as I see it useful to have an AI agent working with the organization and implementation process. It may be a feature of the application to allow the AI agent to plan the daily schedule. That would be crazxy
